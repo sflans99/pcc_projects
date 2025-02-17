@@ -146,11 +146,11 @@ import random
 # describe_city(city_name='Florence', country='italy')
 # describe_city('Houston')
 
-def get_formatted_name(first_name, last_name):
-    """Return a fully formatted name"""
-    full_name = f"{first_name} {last_name}"
-    return full_name.title()
+# def get_formatted_name(first_name, last_name):
+#     """Return a fully formatted name"""
+#     full_name = f"{first_name} {last_name}"
+#     return full_name.title()
 
-musician = get_formatted_name('sonny', 'moore')
-print(musician)
+# musician = get_formatted_name('sonny', 'moore')
+# print(musician)
 
