@@ -154,3 +154,27 @@ import random
 # musician = get_formatted_name('sonny', 'moore')
 # print(musician)
 
+
+# def city_country(city, country):
+#     location = f"{city}, {country}".title()
+#     return location
+
+# print(city_country("St Louis", "USA"))
+# print(city_country("Dallas", "USA"))
+
+# def define_album(artist, album, songs=None):
+#     full_album = {'Artist': artist, 'Album':album}
+#     if songs != None:
+#         full_album = {'Artist': artist, 'Album':album, 'Songs': songs}
+    
+#     return full_album
+
+# create_album = define_album(['Skrillex', 'Diplo', 'Flux Pavillion'], 'Equinox', '10')
+# print(create_album['Artist'][1])
+
+def show_messages(texts):
+    for text in texts:  
+        print(f"{text}")
+
+messages = ['Hello world!', 'What a time to be alive', 'Where the hell am I']
+show_messages(messages)
