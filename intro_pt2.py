@@ -172,9 +172,10 @@ import random
 # create_album = define_album(['Skrillex', 'Diplo', 'Flux Pavillion'], 'Equinox', '10')
 # print(create_album['Artist'][1])
 
-def show_messages(texts):
-    for text in texts:  
-        print(f"{text}")
+# def show_messages(texts):
+#     for text in texts:  
+#         print(f"{text}")
 
-messages = ['Hello world!', 'What a time to be alive', 'Where the hell am I']
-show_messages(messages)
+# messages = ['Hello world!', 'What a time to be alive', 'Where the hell am I']
+# show_messages(messages)
+
